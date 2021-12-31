@@ -8,7 +8,6 @@ This app allows user to tap a button to change the color and text of the items.
 
 <img src="https://user-images.githubusercontent.com/75115435/147835000-9dfec1d8-2252-4ed0-a6c0-4275ef984bc8.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
