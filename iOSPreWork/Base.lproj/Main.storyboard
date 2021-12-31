@@ -17,70 +17,70 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vWx-8E-GdV">
-                                <rect key="frame" x="87" y="263" width="240" height="128"/>
+                                <rect key="frame" x="87" y="247" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsf-4l-hYO">
-                                        <rect key="frame" x="76" y="54" width="88" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello from Hyungji! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsf-4l-hYO">
+                                        <rect key="frame" x="45" y="8" width="150" height="112"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <color key="textColor" systemColor="systemIndigoColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mts-cC-jbV">
-                                <rect key="frame" x="87" y="492" width="240" height="31"/>
+                                <rect key="frame" x="87" y="545" width="240" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change Text Color">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="TextColorButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sso-6H-FJd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vw-iD-flT">
-                                <rect key="frame" x="87" y="453" width="240" height="31"/>
+                                <rect key="frame" x="87" y="437" width="240" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change View Color">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="BackgroundButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7QV-Vx-mc4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnC-rz-80H">
-                                <rect key="frame" x="87" y="414" width="240" height="31"/>
+                                <rect key="frame" x="87" y="491" width="240" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change Text String">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="TextButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NyD-ZI-glB"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uiV-TO-W1L">
-                                <rect key="frame" x="87" y="130" width="240" height="34"/>
+                                <rect key="frame" x="87" y="159" width="240" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" red="0.47069506924789373" green="0.62520519151546661" blue="0.76867932081222534" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="eGY-Gj-6St" appends="YES" id="QXF-Fc-fve"/>
@@ -99,21 +99,18 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-433.33333333333337" y="101.78571428571428"/>
+            <point key="canvasLocation" x="-546.37681159420299" y="8.7053571428571423"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
