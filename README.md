@@ -6,7 +6,7 @@ This app allows user to tap a button to change the color and text of the items.
 ### App Walk-though
 
 
-<img src="https://i.imgur.com/hUXTDln.gifv" width=200><br>
+<img src="https://i.imgur.com/hUXTDln.gif" width=200><br>
 
 
 ### Required User Stories
